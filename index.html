@@ -277,7 +277,7 @@
                 background-position: center;
                 background-repeat: no-repeat;
             }
-            .frd1, .frd2, .frd3, .frd4, .frd5, .frd6{
+            .frd1,.frd2,.frd3,.frd4{
                 margin: 5%;
                 border: none;
                 box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -340,6 +340,32 @@
             }
             .an6{
                 background-image: url('https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/anniversary/wide/6.jpg');
+            }
+            /*Fathers day wide*/
+            .fd1{
+                background-image: url('https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/fathers day/wide/1.jpg');
+            }
+            .fd2{
+                background-image: url('https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/fathers day/wide/2.jpg');
+            }
+            .fd3{
+                background-image: url('https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/fathers day/wide/3.jpg');
+            }
+            .fd4{
+                background-image: url('https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/fathers day/wide/4.jpg');
+            }
+            /*Friendship day wide*/
+            .frd1{
+                background-image: url('https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/friendship day/wide/1.jpg');
+            }
+            .frd2{
+                background-image: url('https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/friendship day/wide/2.jpg');
+            }
+            .frd3{
+                background-image: url('https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/friendship day/wide/3.jpg');
+            }
+            .frd4{
+                background-image: url('https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/friendship day/wide/4.jpg');
             }
             /* PAGE 4 */
             .page4{
@@ -507,6 +533,7 @@
                 <div class="md6" onclick="next4()"><div class="gg1"></div><br></div>
                 <br>
             </div>
+            <br>
         </div>
         <!--Fathers day gifts-->
         <div class="pa3" id="dad" style="display: none;">
@@ -520,10 +547,9 @@
                 <div class="fd2" onclick="next4()"><div class="gg1"></div><br></div>
                 <div class="fd3" onclick="next4()"><div class="gg1"></div><br></div>
                 <div class="fd4" onclick="next4()"><div class="gg1"></div><br></div>
-                <div class="fd5" onclick="next4()"><div class="gg1"></div><br></div>
-                <div class="fd6" onclick="next4()"><div class="gg1"></div><br></div>
                 <br>
             </div>
+            <br>
         </div>
         <!--Housewarming gifts-->
         <div class="pa3" id="home" style="display: none;">
@@ -541,6 +567,7 @@
                 <div class="hm6" onclick="next4()"><div class="gg1"></div><br></div>
                 <br>
             </div>
+            <br>
         </div>
         <!--Valentines day gifts-->
         <div class="pa3" id="love" style="display: none;">
@@ -558,6 +585,7 @@
                 <div class="vd6" onclick="next4()"><div class="gg1"></div><br></div>
                 <br>
             </div>
+            <br>
         </div>
         <!--Friendship day gifts-->
         <div class="pa3" id="dosth" style="display: none;">
@@ -571,10 +599,9 @@
                 <div class="frd2" onclick="next4()"><div class="gg1"></div><br></div>
                 <div class="frd3" onclick="next4()"><div class="gg1"></div><br></div>
                 <div class="frd4" onclick="next4()"><div class="gg1"></div><br></div>
-                <div class="frd5" onclick="next4()"><div class="gg1"></div><br></div>
-                <div class="frd6" onclick="next4()"><div class="gg1"></div><br></div>
                 <br>
             </div>
+            <br>
         </div>
         <div id="page4" class="page4" style="display: none;">
             <br><br>
@@ -674,7 +701,7 @@
         </div>
         <div id="ganp3" class="page4" style="display: none;">
             <br><br>
-            <button class="b1" onclick="next21()" style="margin-top: -15px; margin-left:15px; ">Back</button>
+            <button class="b1" onclick="next21()">Back</button>
             <br><br>
             <center>
                 <div class="pro">
@@ -706,7 +733,7 @@
         </div>
         <div id="ganp4" class="page4" style="display: none;">
             <br><br>
-            <button class="b1" onclick="next21()" style="margin-top: -15px; margin-left:15px; ">Back</button>
+            <button class="b1" onclick="next21()">Back</button>
             <br><br>
             <center>
                 <div class="pro">
@@ -841,7 +868,7 @@
         });
         function showPage(pageId) {
             // Hide all pages and elements
-            document.querySelectorAll('#page0,#page1,#page2,#page3,#page4, #ann, #mom, #dad, #home, #love, #dost, #ganp1,#ganp2,#ganp3,#ganp4,#ganp5,#ganp6,#ganp7').forEach(function (page) {
+            document.querySelectorAll('#page0,#page1,#page2,#page3,#page4, #ann, #mom, #dad, #home, #love, #dosth, #ganp1,#ganp2,#ganp3,#ganp4,#ganp5,#ganp6,#ganp7').forEach(function (page) {
                 page.style.display = 'none';
             });
             document.getElementById(pageId).style.display = 'block';
@@ -880,7 +907,7 @@
         }
 
         function next26() {
-            showPage('dost');
+            showPage('dosth');
         }
 
         function next4() {
