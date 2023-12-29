@@ -299,6 +299,10 @@
                 background-color: #fff;
                 height: 50px;
                 width: 280px;
+                text-align: center;
+                padding: 5%;
+                font-size: 15px;
+                text-transform: uppercase;
             }
             .g1 {
                 background-image: url('https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/mothers day/md1.png');
@@ -325,6 +329,18 @@
             .an2{
                 background-image: url('https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/anniversary/wide/2.jpg');
             }
+            .an3{
+                background-image: url('https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/anniversary/wide/3.jpg');
+            }
+            .an4{
+                background-image: url('https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/anniversary/wide/4.jpg');
+            }
+            .an5{
+                background-image: url('https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/anniversary/wide/5.jpg');
+            }
+            .an6{
+                background-image: url('https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/anniversary/wide/6.jpg');
+            }
             /* PAGE 4 */
             .page4{
                 margin: 1%;
@@ -341,13 +357,14 @@
                 transition: color 0.3s ease;
             }
             .pro{
-                margin: 5%;
+                margin-right:2%;
+                margin-top: 3%;
                 background-color: whitesmoke;
                 box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
                 border: none;
                 border-radius: 16px;
                 height: 570px;
-                width: 80%;
+                width: 320px;
             }
             .pic{
                 object-fit: cover;
@@ -402,7 +419,7 @@
         </div>
     </header>
     <body>
-        <div class="page0" style="display: block;">
+        <div class="page0" id="page0" style="display: block;">
             <center>
                 <img src="https://rohanpashikanti.github.io/rohanpashikanti/gift.png" style="height: 80px; width: 80px;"><br>
                 <p2>GIFTIFY</p2>
@@ -465,12 +482,14 @@
             <div class="gr">
                 <div class="an1" onclick="ganp1()"><div class="gg1"><center>Wooden Stand</center></div><br></div>
                 <div class="an2" onclick="ganp2()"><div class="gg1"><center>embroidery gifts</center></div><br></div>
-                <div class="an3" onclick="next4()"><div class="gg1"></div><br></div>
-                <div class="an4" onclick="next4()"><div class="gg1"></div><br></div>
-                <div class="an5" onclick="next4()"><div class="gg1"></div><br></div>
-                <div class="an6" onclick="next4()"><div class="gg1"></div><br></div>
-                <br>
+                <div class="an3" onclick="ganp3()"><div class="gg1"><center>Transparent Acrylic Frame</center></div><br></div>
+                <div class="an4" onclick="ganp4()"><div class="gg1"><center>Fusion Gifts</center></div><br></div>
+                <div class="an5" onclick="ganp5()"><div class="gg1"><center>Acrylic Photo Lamp</center></div><br></div>
+                <div class="an6" onclick="ganp6()"><div class="gg1"><center>Digi Painting</center></div><br></div>
+                <div class="an7" onclick="ganp7()"><div class="gg1"><center>LED Cushion</center></div><br></div>
+                <br><br>
             </div>
+            <br><br>
         </div>
         <!--mothers day gifts-->
         <div class="pa3" id="mom" style="display: none;">
@@ -621,7 +640,7 @@
         </div>
         <div id="ganp2" class="page4" style="display: none;">
             <br><br>
-            <button class="b1" onclick="next3()" style="margin-top: -15px; margin-left:15px; ">Back</button>
+            <button class="b1" onclick="next21()" style="margin-top: -15px; margin-left:15px; ">Back</button>
             <br><br>
             <center>
                 <div class="pro">
@@ -650,6 +669,161 @@
                 </div>
             </center>
         </div>
+        <div id="ganp3" class="page4" style="display: none;">
+            <br><br>
+            <button class="b1" onclick="next21()" style="margin-top: -15px; margin-left:15px; ">Back</button>
+            <br><br>
+            <center>
+                <div class="pro">
+                    <div class="logo-cart" style="float: right;">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div><br>
+                    <div class="pic">
+                        <img src="https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/anniversary/sq/3.jpg">
+                    </div><br><br><br>
+                    <div class="det">
+                        <span class="name">Transparent Acrylic Frame</span>
+                        <br>
+                        <p3>
+                            Customized Couple Transparent Acrylic Frame
+                        </p3>
+                    </div>
+                    <br><br>
+                    <div class="pb">
+                        <div class="pri">
+                            <p3 style="font-size: 25px;">₹ 1599</p3>
+                        </div>
+                        <div class="but">
+                            <button class="b2">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </div>
+        <div id="ganp4" class="page4" style="display: none;">
+            <br><br>
+            <button class="b1" onclick="next21()" style="margin-top: -15px; margin-left:15px; ">Back</button>
+            <br><br>
+            <center>
+                <div class="pro">
+                    <div class="logo-cart" style="float: right;">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div><br>
+                    <div class="pic">
+                        <img src="https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/anniversary/sq/6.jpg">
+                    </div><br><br><br>
+                    <div class="det">
+                        <span class="name">Fusion Gifts</span>
+                        <br>
+                        <p3>
+                            Fusion Gifts Personlised Anniversary Gift For Couples.
+                        </p3>
+                    </div>
+                    <br><br>
+                    <div class="pb">
+                        <div class="pri">
+                            <p3 style="font-size: 25px;">₹ 598</p3>
+                        </div>
+                        <div class="but">
+                            <button class="b2">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </div>
+        <div id="ganp5" class="page4" style="display: none;">
+            <br><br>
+            <button class="b1" onclick="next21()" style="margin-top: -15px; margin-left:15px; ">Back</button>
+            <br><br>
+            <center>
+                <div class="pro">
+                    <div class="logo-cart" style="float: right;">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div><br>
+                    <div class="pic">
+                        <img src="https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/anniversary/sq/4.jpg">
+                    </div><br><br><br>
+                    <div class="det">
+                        <span class="name">Acrylic Photo Lamp</span>
+                        <br>
+                        <p3>
+                            Personalised Elegance Acrylic Photo Lamp
+                        </p3>
+                    </div>
+                    <br><br>
+                    <div class="pb">
+                        <div class="pri">
+                            <p3 style="font-size: 25px;">₹ 1099</p3>
+                        </div>
+                        <div class="but">
+                            <button class="b2">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </div>
+        <div id="ganp6" class="page4" style="display: none;">
+            <br><br>
+            <button class="b1" onclick="next21()" style="margin-top: -15px; margin-left:15px; ">Back</button>
+            <br><br>
+            <center>
+                <div class="pro">
+                    <div class="logo-cart" style="float: right;">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div><br>
+                    <div class="pic">
+                        <img src="https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/anniversary/sq/5.jpg">
+                    </div><br><br><br>
+                    <div class="det">
+                        <span class="name">Digi Painting</span>
+                        <br>
+                        <p3>
+                            Digital Painting of couple.
+                        </p3>
+                    </div>
+                    <br><br>
+                    <div class="pb">
+                        <div class="pri">
+                            <p3 style="font-size: 25px;">₹ 1550</p3>
+                        </div>
+                        <div class="but">
+                            <button class="b2">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </div>
+        <div id="ganp7" class="page4" style="display: none;">
+            <br><br>
+            <button class="b1" onclick="next21()" style="margin-top: -15px; margin-left:15px; ">Back</button>
+            <br><br>
+            <center>
+                <div class="pro">
+                    <div class="logo-cart" style="float: right;">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div><br>
+                    <div class="pic">
+                        <img src="https://rohanpashikanti.github.io/GIFTIFY/GIFTIFY SOURCE/events/anniversary/sq/7.jpg">
+                    </div><br><br><br>
+                    <div class="det">
+                        <span class="name">LED Cushion</span>
+                        <br>
+                        <p3>
+                            Personalised Love Affair LED Cushion
+                        </p3>
+                    </div>
+                    <br><br>
+                    <div class="pb">
+                        <div class="pri">
+                            <p3 style="font-size: 25px;">₹ 675</p3>
+                        </div>
+                        <div class="but">
+                            <button class="b2">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </div>
     </body>
     <script>
         /* PAGE SHIFTTING */
@@ -659,7 +833,7 @@
         });
         function showPage(pageId) {
             // Hide all pages and elements
-            document.querySelectorAll('#page0,#page1,#page2,#page3,#page4, #ann, #mom, #dad, #home, #love, #dost, #ganp1,#ganp2').forEach(function (page) {
+            document.querySelectorAll('#page0,#page1,#page2,#page3,#page4, #ann, #mom, #dad, #home, #love, #dost, #ganp1,#ganp2,#ganp3,#ganp4,#ganp5,#ganp6,#ganp7').forEach(function (page) {
                 page.style.display = 'none';
             });
             document.getElementById(pageId).style.display = 'block';
@@ -710,6 +884,21 @@
         }
         function ganp2() {
             showPage('ganp2');
+        }
+        function ganp3() {
+            showPage('ganp3');
+        }
+        function ganp4() {
+            showPage('ganp4');
+        }
+        function ganp5() {
+            showPage('ganp5');
+        }
+        function ganp6() {
+            showPage('ganp6');
+        }
+        function ganp7() {
+            showPage('ganp7');
         }
     </script>
 </html>
